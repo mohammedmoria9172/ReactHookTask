@@ -1,0 +1,19 @@
+.data-list {
+  min-height: 160px;
+  overflow: scroll;
+  height: 380px;
+}
+
+.data-list ul {
+  margin: 0;
+  padding-left: 35px;
+  list-style-type: decimal
+}
+
+.data-list ul li {
+  margin-bottom: 10px;
+}
+
+.data-list.loading {
+  background: #FF5722;
+}
